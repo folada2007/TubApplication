@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "L6SJdv4uTf5LWX1/3m/v8puil9h+vpVwGKAYtTWmKlI=",
+  "Source": "Philharmonic",
+  "BasePath": "_content/Philharmonic",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Philharmonic\\wwwroot",
+      "Source": "Philharmonic",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\repos\\Philharmonic\\Philharmonic\\wwwroot\\",
+      "BasePath": "_content/Philharmonic",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\ASUS\\source\\repos\\Philharmonic\\Philharmonic\\wwwroot\\css\\bootstrap.min.css",
+      "SourceId": "Philharmonic",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\repos\\Philharmonic\\Philharmonic\\wwwroot\\",
+      "BasePath": "_content/Philharmonic",
+      "RelativePath": "css/bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\source\\repos\\Philharmonic\\Philharmonic\\wwwroot\\js\\bootstrap.bundle.js",
+      "SourceId": "Philharmonic",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\repos\\Philharmonic\\Philharmonic\\wwwroot\\",
+      "BasePath": "_content/Philharmonic",
+      "RelativePath": "js/bootstrap.bundle.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\bootstrap.bundle.js"
+    }
+  ]
+}

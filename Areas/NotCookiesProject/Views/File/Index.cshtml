@@ -1,0 +1,23 @@
+﻿@using Philharmonic.Areas.NotCookiesProject.Models
+@model DateModel
+
+<form asp-action="Check" asp-controller="File" asp-area="NotCookiesProject">
+    <div class="mb-3">
+        <label asp-for="FirstDate" class="form-label"></label>
+        <input type="date" class="form-control" asp-for="FirstDate">
+        <span asp-validation-for="FirstDate" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="LastDate" class="form-label"></label>
+        <input type="date" class="form-control" asp-for="LastDate">
+        <span asp-validation-for="LastDate" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" asp-for="UseCurrentDate">
+        <label class="form-check-label" asp-for="UseCurrentDate"></label>
+        <span asp-validation-for="UseCurrentDate" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

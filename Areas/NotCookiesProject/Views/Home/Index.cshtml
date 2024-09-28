@@ -1,0 +1,18 @@
+﻿@{
+   ViewBag.Title = "HUI";
+}
+
+<div class="container">
+    <div class="row">
+        <a asp-area="NotCookiesProject" asp-controller="File" asp-action="Index">Войти</a>
+        @if (ViewBag.MyParameter is not null)
+        {
+            <h1>@ViewBag.MyParameter</h1>
+        }
+        else
+        {
+            <h1>hui</h1>
+        }
+    </div>
+</div>
+

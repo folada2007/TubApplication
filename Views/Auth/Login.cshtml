@@ -1,0 +1,22 @@
+﻿@using Philharmonic.Models
+@model Login
+
+<div class="container">
+    <form asp-action="Login" asp-controller="Auth" method="post">
+        <div asp-validation-summary="ModelOnly"></div>
+        <div class="mb-3">
+            <label asp-for="Name" class="form-label"></label>
+            <input asp-for="Name" type="text" class="form-control">
+            <span class="text-danger" asp-validation-for="Name"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Password" class="form-label"></label>
+            <input asp-for="Password" type="password" class="form-control">
+            <span class="text-danger" asp-validation-for="Password"></span>
+        </div>
+        <button type="submit">h oh oho </button>
+    </form>
+    <div class="text-center">
+        <p>Еще не с нами?Присоединяйся <a asp-action="Register" asp-controller="Auth">Зарегистрироваться</a></p>
+    </div>
+</div>

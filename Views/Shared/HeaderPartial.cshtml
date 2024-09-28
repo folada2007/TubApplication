@@ -1,0 +1,24 @@
+﻿<nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" asp-controller="Home" asp-action="Index">Default</a>
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-light p-4">
+                @if (User.Identity != null && !User.Identity.IsAuthenticated)
+                    {
+                    <a asp-action="Login" asp-controller="Auth" asp-area="">Войти</a>
+                }
+                else
+                {
+                    <a asp-action="LogOut" asp-controller="Auth" asp-area="">Выйти</a>
+                }
+            </div>
+        </div>
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+    </div>
+</nav>
